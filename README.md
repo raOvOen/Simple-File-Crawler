@@ -1,4 +1,4 @@
-#Simple File Crawler
+# Simple File Crawler
 
 This program was designed to search for the required information (keywords) in Word, Excel and other documents and files.
 How to use the program:
