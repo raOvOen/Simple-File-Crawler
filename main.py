@@ -82,7 +82,7 @@ def btn_cp_results_command():
         root.clipboard_clear()
         root.clipboard_append(result_of_scan)
         root.update()
-        label_cp_path.place(x=240, y=551, height=30)
+        label_cp_path.place(x=240, y=546, height=30)
 
 def btn_clear_command():
     before_start_clear()
@@ -121,7 +121,7 @@ def listbox_copy_path(event):
             root.clipboard_clear()
             root.clipboard_append(res_adress[temp_pos])
             root.update()
-            label_cp_path.place(x=240, y=551, height=30)
+            label_cp_path.place(x=240, y=546, height=30)
 
 def before_start_clear():
     listbox_result.delete(0, tk.END)
@@ -337,7 +337,6 @@ def lookfor_text(adr, filename, word, excel, like_txt, text):
                                         if keyword not in act_keyword:
                                             act_keyword += keyword + "|"
                 except Exception as e:
-                    print(e)
                     pass
                 finally:
                     if count > 0:
